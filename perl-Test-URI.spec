@@ -6,7 +6,7 @@
 %define	pdir	Test
 %define	pnam	URI
 Summary:	Test::URI - Check Uniform Resource Identifiers
-#Summary(pl):	
+Summary(pl):	Test::URI - sprawdzanie URI (Uniform Resource Identifiers)
 Name:		perl-Test-URI
 Version:	1.03
 Release:	1
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a1b86583489ac57eb5e6f733b3e77edc
+URL:		http://search.cpan.org/dist/Test-URI/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -27,10 +28,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Check various parts of Uniform Resource Locators
+Check various parts of Uniform Resource Locators.
 
-# %description -l pl
-# TODO
+%description -l pl
+Sprawdzanie ró¿nych czê¶ci URL-i (Uniform Resource Locators).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
