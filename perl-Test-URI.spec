@@ -8,13 +8,13 @@
 Summary:	Test::URI - Check Uniform Resource Identifiers
 Summary(pl):	Test::URI - sprawdzanie URI (Uniform Resource Identifiers)
 Name:		perl-Test-URI
-Version:	1.04
+Version:	1.05
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	16abc6a7f309669f6afa477e4dfc5601
+# Source0-md5:	491a5fd300fbda42e1389a0f9e569f55
 URL:		http://search.cpan.org/dist/Test-URI/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
