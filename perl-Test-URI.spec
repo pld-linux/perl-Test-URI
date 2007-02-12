@@ -6,7 +6,7 @@
 %define	pdir	Test
 %define	pnam	URI
 Summary:	Test::URI - Check Uniform Resource Identifiers
-Summary(pl):	Test::URI - sprawdzanie URI (Uniform Resource Identifiers)
+Summary(pl.UTF-8):   Test::URI - sprawdzanie URI (Uniform Resource Identifiers)
 Name:		perl-Test-URI
 Version:	1.05
 Release:	1
@@ -30,8 +30,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Check various parts of Uniform Resource Locators.
 
-%description -l pl
-Sprawdzanie r�nych cz�ci URL-i (Uniform Resource Locators).
+%description -l pl.UTF-8
+Sprawdzanie różnych części URL-i (Uniform Resource Locators).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
