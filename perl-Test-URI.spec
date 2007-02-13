@@ -6,7 +6,7 @@
 %define	pdir	Test
 %define	pnam	URI
 Summary:	Test::URI - Check Uniform Resource Identifiers
-Summary(pl.UTF-8):   Test::URI - sprawdzanie URI (Uniform Resource Identifiers)
+Summary(pl.UTF-8):	Test::URI - sprawdzanie URI (Uniform Resource Identifiers)
 Name:		perl-Test-URI
 Version:	1.05
 Release:	1
